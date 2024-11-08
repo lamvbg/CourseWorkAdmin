@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:background="@android:color/white"
+              android:divider="?android:attr/dividerHorizontal"
+              android:showDividers="middle">
+
+    <TextView
+            android:id="@+id/type_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Class"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp" />
+
+    <TextView
+            android:id="@+id/teacher_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp" />
+
+    <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp" />
+
+    <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp" />
+
+    <TextView
+            android:id="@+id/comments_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp" />
+</LinearLayout>

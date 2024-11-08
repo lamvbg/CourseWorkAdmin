@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courses"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        <Button
+                android:id="@+id/delete_all_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete All"
+                android:backgroundTint="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/add_course_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEW"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#034EE6"
+            android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/yoga_class_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp" />
+
+
+</LinearLayout>

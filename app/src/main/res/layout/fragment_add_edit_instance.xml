@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher *"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+            android:id="@+id/dialog_instance_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="John Wick"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:backgroundTint="#E9E9E9"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="text" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date *"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="8dp" />
+
+    <TextView
+            android:id="@+id/dialog_instance_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Day"
+            android:textColor="@color/black"
+            android:backgroundTint="#E9E9E9"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course *"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="8dp" />
+
+    <Spinner
+            android:id="@+id/spinner_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+            android:id="@+id/dialog_instance_comments"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
+            android:hint="Optional"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:lines="3" />
+</LinearLayout>

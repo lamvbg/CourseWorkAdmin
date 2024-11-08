@@ -1,0 +1,47 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+    <EditText
+            android:id="@+id/et_search_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search by teacher name"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="8dp" />
+
+    <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:backgroundTint="#034EE6"
+            android:textColor="@android:color/white"
+            android:layout_gravity="end"/>
+
+    <TextView
+            android:id="@+id/tv_no_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No results found"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_search_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+</LinearLayout>

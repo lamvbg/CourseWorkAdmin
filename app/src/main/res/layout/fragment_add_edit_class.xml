@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title *"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+    <EditText
+            android:id="@+id/dialog_class_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day of the week *"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+
+    <TextView
+            android:id="@+id/dialog_class_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Day"
+            android:textColor="@color/black"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginBottom="5dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time of course *"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+    <TextView
+            android:id="@+id/dialog_class_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:textColor="@color/black"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginBottom="5dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacity *"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+    <EditText
+            android:id="@+id/dialog_class_capacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="10 persons"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:inputType="number"
+            android:layout_marginBottom="5dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration *"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+    <EditText
+            android:id="@+id/dialog_class_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="60 minutes"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:inputType="number"
+            android:layout_marginBottom="5dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price per class *"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+    <EditText
+            android:id="@+id/dialog_class_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="10$"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="5dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type of class *"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+    <RadioGroup
+            android:id="@+id/radioGroupType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginBottom="5dp">
+
+        <RadioButton
+                android:id="@+id/rb_flow_yoga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flow Yoga"
+                android:textColor="@color/black" />
+
+        <RadioButton
+                android:id="@+id/rb_aerial_yoga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aerial Yoga"
+                android:textColor="@color/black" />
+
+        <RadioButton
+                android:id="@+id/rb_family_yoga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Family Yoga"
+                android:textColor="@color/black" />
+    </RadioGroup>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="5dp" />
+
+    <EditText
+            android:id="@+id/dialog_class_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Optional"
+            android:textColor="@color/black"
+            android:textColorHint="#A6A4A4"
+            android:textStyle="italic"
+            android:backgroundTint="#E9E9E9"
+            android:background="@drawable/edit_text_background"
+            android:padding="16dp"
+            android:inputType="textMultiLine"
+            android:lines="3" />
+</LinearLayout>

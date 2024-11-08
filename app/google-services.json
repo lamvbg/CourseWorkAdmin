@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "635546427669",
+    "project_id": "yogaapp-76c91",
+    "storage_bucket": "yogaapp-76c91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635546427669:android:2fa8dd1f8c6c567287c91c",
+        "android_client_info": {
+          "package_name": "com.example.courseworkadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4_LHc9naL29ipEb6Kp328MJ16qA24q1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
